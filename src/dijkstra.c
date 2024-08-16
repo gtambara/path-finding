@@ -1,4 +1,4 @@
-#include "dijkstra.h"
+#include "../include/dijkstra.h"
 
 /**
  * from wikipedia:

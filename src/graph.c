@@ -1,4 +1,4 @@
-#include "graph.h"
+#include "../include/graph.h"
 #include <time.h>
 
 int verify_edge(type_graph* graphx, int id1, int id2) {

@@ -1,5 +1,5 @@
-#include "graph.h"
-#include "dijkstra.h"
+#include "../include/graph.h"
+#include "../include/dijkstra.h"
 
 int main() {
 

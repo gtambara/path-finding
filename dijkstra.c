@@ -61,7 +61,7 @@ void DijkstraSearch(type_graph* graphx, int target_node_id, int source_node_id){
 
     if (previous[aux] != -1 || aux == source_node_id) {
         while (aux != -1) {
-            printf("%c-", aux + '0');
+            printf("%d-", aux);
             aux = previous[aux];
         }
     }

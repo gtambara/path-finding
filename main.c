@@ -2,7 +2,13 @@
 #include "dijkstra.h"
 
 int main() {
-    type_graph* graphx = generate_graph(10);
+
+    int graphsize;
+
+    printf("graph size:\n");
+    scanf("%d", &graphsize);
+
+    type_graph* graphx = generate_graph(graphsize);
     print_graph(*graphx);
 
     int startNode, endNode;
